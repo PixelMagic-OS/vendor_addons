@@ -243,6 +243,24 @@ PRODUCT_PACKAGES += \
     IconPackXperiaSettingsOverlay \
     IconPackXperiaSystemUIOverlay
 
+# Icon Shapes
+PRODUCT_PACKAGES += \
+    IconShapeCloudyOverlay \
+    IconShapeCylinderOverlay \
+    IconShapeFlowerOverlay \
+    IconShapeHeartOverlay \
+    IconShapeHexagonOverlay \
+    IconShapeLeafOverlay \
+    IconShapePebbleOverlay \
+    IconShapeRoundedHexagonOverlay \
+    IconShapeRoundedRectOverlay \
+    IconShapeSquareOverlay \
+    IconShapeSquircleOverlay \
+    IconShapeStretchedOverlay \
+    IconShapeTaperedRectOverlay \
+    IconShapeTeardropOverlay \
+    IconShapeVesselOverlay
+
 # Navbar
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
@@ -394,20 +412,6 @@ PRODUCT_PACKAGES += \
     VolumeOutline \
     VolumeShadedLayer \
     VolumeAOSPRevamped
-
-# Icon Shapes
-PRODUCT_PACKAGES += \
-    IconShapeCylinderOverlay \
-    IconShapeHeartOverlay \
-    IconShapeHexagonOverlay \
-    IconShapeLeafOverlay \
-    IconShapePebbleOverlay \
-    IconShapeRoundedRectOverlay \
-    IconShapeSquareOverlay \
-    IconShapeSquircleOverlay \
-    IconShapeTaperedRectOverlay \
-    IconShapeTeardropOverlay \
-    IconShapeVesselOverlay
 
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
