@@ -1,11 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector
-    android:height="36.0dip"
-    android:width="36.0dip"
-    android:viewportWidth="36.0"
-    android:viewportHeight="36.0"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:viewportWidth="192"
+    android:viewportHeight="192"
+    android:width="192dp"
+    android:height="192dp">
     <path
-        android:fillColor="#ff000000"
-        android:pathData="M30.2967,8.13168 L30.2967,27.8683 A3.13108,3.13108,0,0,1,28.0234,30.8753 L22.6397,32.4047 A4.73321,4.73321,0,0,0,23.1357,30.2864 L23.1357,5.73434 A4.74436,4.74436,0,0,0,22.619,3.585 L28.0233,5.1143 A3.13419,3.13419,0,0,1,30.2967,8.13168 Z M10.1777,28.3747 A1.65079,1.65079,0,0,0,11.0043,29.78 L16.822,33.0866 A3.21239,3.21239,0,0,0,18.3927,33.5 A2.833,2.833,0,0,0,19.271,33.3657 A3.16575,3.16575,0,0,0,21.5857,30.2967 L21.5857,26.711 L11.8104,26.711 A1.65615,1.65615,0,0,0,10.1777,28.3746 Z M19.24,2.624 A3.26757,3.26757,0,0,0,16.7393,2.92365 L7.2843,8.31765 A3.13,3.13,0,0,0,5.7033,11.0353 L5.7033,25.0576 A1.63321,1.63321,0,0,0,8.13167,26.5043 L10.6943,25.13 A2.243,2.243,0,0,0,11.8517,23.1667 L11.8517,13.0917 A2.23343,2.23343,0,0,1,13.319,10.994 L21.5857,8.00765 L21.5857,5.73434 A3.23337,3.23337,0,0,0,19.24,2.624 Z" />
+        android:pathData="M102.729 22.886A25.998 25.998 0 0 0 70 48m83 96.517A25.998 25.998 0 0 0 162.517 109C155 96 120 77 120 77m-94 45a26 26 0 0 0 26 26c14 0 46 -21 46 -21m-8.73 42.114a26.004 26.004 0 0 0 13.459 0M39 47.483A26 26 0 0 0 26 70m140 0a26 26 0 0 0 -13 -22.517M70 48v48M26 70v52m60 -98L39 47.48"
+        android:strokeColor="#000000"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M102.73 22.89C123 30 155 48.48 155 48.48m-52.27 120.63C123 162 153 144.52 153 144.52m-63.73 24.59C69 162 39 144.52 39 144.52M166 70v52m-44 -26c0 20 -26 32 -26 32s-26 -12 -26 -32m52 -18s-12 -8 -26 -8 -26 8 -26 8m52 0v18"
+        android:strokeColor="#000000"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
 </vector>

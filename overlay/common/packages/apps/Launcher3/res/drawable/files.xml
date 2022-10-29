@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="@dimen/theme_icon_size" android:width="@dimen/theme_icon_size" android:viewportWidth="36.0" android:viewportHeight="36.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="@android:color/white" android:pathData="M30 9V27H6V22.245L19.245 9H30ZM30 6H18L3 21V27C3 28.65 4.35 30 6 30H30C31.65 30 33 28.65 33 27V9C33 7.35 31.65 6 30 6Z" />
-    <path android:fillColor="@android:color/white" android:pathData="M16.5 12V19.5H6V12H16.5ZM19.5 9H6C4.35 9 3 10.35 3 12V22.5H16.5C18.15 22.5 19.5 21.15 19.5 19.5V9Z" />
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:viewportWidth="192"
+    android:viewportHeight="192"
+    android:width="192dp"
+    android:height="192dp">
+    <path
+        android:pathData="M22 56v82c0 9.124 6.902 16 16 16h116c8.96 0 16 -6.964 16 -16V70c0 -9.176 -6.984 -16 -16 -16H96L80 38H38c-10.082 0 -16 7.979 -16 18Z"
+        android:strokeColor="#000000"
+        android:strokeWidth="12"
+        android:strokeLineJoin="round" />
 </vector>
