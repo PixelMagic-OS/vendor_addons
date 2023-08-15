@@ -291,6 +291,22 @@ PRODUCT_PACKAGES += \
     QSSurround \
     QSThin
 
+# Data icons
+PRODUCT_PACKAGES += \
+    AuroraDataOverlay \
+    FaintUIDataOverlay \
+    GradiconDataOverlay \
+    LornDataOverlay \
+    PlumpyDataOverlay
+
+# Icon Data
+PRODUCT_PACKAGES += \
+    IconDataFive \
+    IconDataFour \
+    IconDataOne \
+    IconDataThree \
+    IconDataTwo
+
 # Signal Icons
 PRODUCT_PACKAGES += \
     AquariumSignalOverlay \
