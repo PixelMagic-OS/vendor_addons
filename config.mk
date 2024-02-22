@@ -370,31 +370,31 @@ PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay
 
 # UI styles
-PRODUCT_PACKAGES += \
-    UnmonetThemeAndroidOverlay \
-    UnmonetThemeSettingsOverlay \
-    UnmonetThemeSystemUIOverlay \
-    AndroidEspressoThemeOverlay \
-    AndroidSnowPaintDropThemeOverlay \
-    AndroidVividThemeOverlay \
-    PacleggersThemeAndroidOverlay \
-    PacleggersThemeSettingsOverlay \
-    PacleggersThemeSystemUIOverlay \
-    ShishuAmalgamationThemeAndroidOverlay \
-    ShishuAmalgamationThemeSettingsOverlay \
-    ShishuAmalgamationThemeSystemUIOverlay \
-    ShishuIllusionsThemeAndroidOverlay \
-    ShishuIllusionsThemeSettingsOverlay \
-    ShishuIllusionsThemeSystemUIOverlay \
-    ShishuImmensityThemeAndroidOverlay \
-    ShishuImmensityThemeSettingsOverlay \
-    ShishuImmensityThemeSystemUIOverlay \
-    ShishuNightsThemeAndroidOverlay \
-    ShishuNightsThemeSettingsOverlay \
-    ShishuNightsThemeSystemUIOverlay \
-    SolarizedThemeAndroidOverlay \
-    SolarizedThemeSettingsOverlay \
-    SolarizedThemeSystemUIOverlay
+# PRODUCT_PACKAGES += \
+#    UnmonetThemeAndroidOverlay \
+#    UnmonetThemeSettingsOverlay \
+#    UnmonetThemeSystemUIOverlay \
+#    AndroidEspressoThemeOverlay \
+#    AndroidSnowPaintDropThemeOverlay \
+#    AndroidVividThemeOverlay \
+#    PacleggersThemeAndroidOverlay \
+#    PacleggersThemeSettingsOverlay \
+#    PacleggersThemeSystemUIOverlay \
+#    ShishuAmalgamationThemeAndroidOverlay \
+#    ShishuAmalgamationThemeSettingsOverlay \
+#    ShishuAmalgamationThemeSystemUIOverlay \
+#    ShishuIllusionsThemeAndroidOverlay \
+#    ShishuIllusionsThemeSettingsOverlay \
+#    ShishuIllusionsThemeSystemUIOverlay \
+#    ShishuImmensityThemeAndroidOverlay \
+#    ShishuImmensityThemeSettingsOverlay \
+#    ShishuImmensityThemeSystemUIOverlay \
+#    ShishuNightsThemeAndroidOverlay \
+#    ShishuNightsThemeSettingsOverlay \
+#    ShishuNightsThemeSystemUIOverlay \
+#    SolarizedThemeAndroidOverlay \
+#    SolarizedThemeSettingsOverlay \
+#    SolarizedThemeSystemUIOverlay
 
 # Utility Overlays
 PRODUCT_PACKAGES += \
