@@ -276,7 +276,6 @@ PRODUCT_PACKAGES += \
 # Prebuilt packages
 PRODUCT_PACKAGES += \
     Auxio \
-    ViaBrowser
     
 # QS UI Style
 PRODUCT_PACKAGES += \
