@@ -140,38 +140,49 @@ PRODUCT_PACKAGES += \
     FontAmaranteOverlay \
     FontBariolOverlay \
     FontCagliostroOverlay \
+    FontCircularStdOverlay \
     FontCoconOverlay \
     FontComfortaaOverlay \
     FontComicSansOverlay \
-    FontCookieRunOverlay \
     FontCoolstoryOverlay \
+    FontDotComOverlay \
     FontExotwoOverlay \
-    FontEvolveSansOverlay \
     FontFifa2018Overlay \
-    FontGoogleSansOverlay \
+    FontFluidSansOverlay \
+    FontFucekSourceOverlay \
     FontGrandHotelOverlay \
     FontHarmonySansOverlay \
+    FontInterOverlay \
+    FontJTLeonorOverlay \
     FontLatoOverlay \
+    FontLGSmartGothicOverlay \
     FontLinotteOverlay \
+    FontMiSansOverlay \
     FontNokiaPureOverlay \
+    FontNothiingDotOverlay \
     FontNothingDotHeadlineOverlay \
-    FontNothingDotOverlay \
     FontNunitoOverlay \
     FontOneplusSansOverlay \
     FontOneplusSlateOverlay \
+    FontOppoSansOverlay \
     FontOswaldOverlay \
+    FontProductSansVHOverlay \
     FontQuandoOverlay \
     FontRedressedOverlay \
     FontReemKufiOverlay \
     FontRobotoCondensedOverlay \
+    FontRobotoOverlay \
+    FontRosemaryOverlay \
     FontRubikOverlay \
     FontSamsungOneOverlay \
     FontSansSerifOverlay \
+    FontSanFranciscoDisplayProSourceOverlay \
+    FontSimpleDaySourceOverlay \
     FontSonySketchOverlay \
     FontStoropiaOverlay \
     FontSurferOverlay \
-    FontRosemaryOverlay \
-    FontUbuntuOverlay
+    FontUbuntuOverlay \
+    RobotoFallback-VF.ttf
 
 # Icon Packs
 PRODUCT_PACKAGES += \

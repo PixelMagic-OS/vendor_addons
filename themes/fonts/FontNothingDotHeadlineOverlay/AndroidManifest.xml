@@ -1,6 +1,6 @@
 <!--
 /**
- * Copyright (c) 2023 crDroid Android Project
+ * Copyright (c) 2019-2020, crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,6 +17,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.theme.font.nothingdotheadline"
+    android:allowBackup="false"
     android:versionCode="1"
     android:versionName="1.0">
     <overlay android:targetPackage="android"
@@ -26,6 +27,6 @@
     <application android:label="@string/font_nothingdot_overlay_headline" android:hasCode="false">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
-            android:value="nothingdot57,googlesans,googlesans-medium" />
+            android:value="nothingdotheadline" />
     </application>
 </manifest>
