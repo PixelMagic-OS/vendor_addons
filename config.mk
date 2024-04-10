@@ -36,9 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/addons/prebuilt/product/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml \
     vendor/addons/prebuilt/product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml
 
-# Bootanimation
-include vendor/addons/prebuilt/bootanimation/bootanimation.mk
-
 # Clocks
 PRODUCT_PACKAGES += \
     SystemUIClocks-BigNum \
@@ -246,25 +243,6 @@ PRODUCT_PACKAGES += \
     IconPackXperiaSettingsOverlay \
     IconPackXperiaSystemUIOverlay
 
-# Icon Shapes
-PRODUCT_PACKAGES += \
-    IconShapeCloudyOverlay \
-    IconShapeCylinderOverlay \
-    IconShapeFlowerOverlay \
-    IconShapeHeartOverlay \
-    IconShapeHexagonOverlay \
-    IconShapeLeafOverlay \
-    IconShapeMeowOverlay \
-    IconShapePebbleOverlay \
-    IconShapeRoundedHexagonOverlay \
-    IconShapeRoundedRectOverlay \
-    IconShapeSquareOverlay \
-    IconShapeSquircleOverlay \
-    IconShapeStretchedOverlay \
-    IconShapeTaperedRectOverlay \
-    IconShapeTeardropOverlay \
-    IconShapeVesselOverlay
-
 # Navbar
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
@@ -283,11 +261,7 @@ PRODUCT_PACKAGES += \
     NavbarOneUiOverlay \
     NavbarSammyOverlay \
     NavbarTecnoCamonOverlay
-
-# Prebuilt packages
-PRODUCT_PACKAGES += \
-    Auxio \
-    
+   
 # QS UI Style
 PRODUCT_PACKAGES += \
     A11QSUI \
