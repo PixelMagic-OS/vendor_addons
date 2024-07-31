@@ -23,19 +23,6 @@ PRODUCT_PACKAGES += \
     UdfpsAnimations
 endif
 
-PRODUCT_COPY_FILES += \
-    vendor/addons/prebuilt/product/etc/permissions/com.android.angle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.angle.xml \
-    vendor/addons/prebuilt/product/etc/sysconfig/dialer_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/dialer_experience.xml \
-    vendor/addons/prebuilt/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
-    vendor/addons/prebuilt/product/etc/sysconfig/google_build.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_build.xml \
-    vendor/addons/prebuilt/product/etc/sysconfig/google_exclusives_enable.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_exclusives_enable.xml \
-    vendor/addons/prebuilt/product/etc/sysconfig/google-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-whitelist.xml \
-    vendor/addons/prebuilt/product/etc/sysconfig/nexus.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/nexus.xml \
-    vendor/addons/prebuilt/product/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml \
-    vendor/addons/prebuilt/product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml \
-    vendor/addons/prebuilt/product/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml \
-    vendor/addons/prebuilt/product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml
-
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
@@ -251,38 +238,6 @@ PRODUCT_PACKAGES += \
     IconShapeTeardropOverlay \
     IconShapeVesselOverlay
 
-# Navbar
-PRODUCT_PACKAGES += \
-    GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium \
-    GesturalNavigationOverlayHidden
-
-# Navbar styles
-PRODUCT_PACKAGES += \
-    NavbarAndroidOverlay \
-    NavbarAsusOverlay \
-    NavbarDoraOverlay \
-    NavbarMotoOverlay \
-    NavbarNexusOverlay \
-    NavbarOldOverlay \
-    NavbarOnePlusOverlay \
-    NavbarOneUiOverlay \
-    NavbarSammyOverlay \
-    NavbarTecnoCamonOverlay
-   
-# QS UI Style
-PRODUCT_PACKAGES += \
-    A11QSUI \
-    QSOutline \
-    QSTwoToneAccent \
-    QSTwoToneAccentTrans \
-    QSShaded \
-    QSCyberPunk \
-    QSNeumorph \
-    QSReflected \
-    QSSurround \
-    QSThin
-
 # Data icons
 PRODUCT_PACKAGES += \
     AuroraDataOverlay \
@@ -357,51 +312,10 @@ PRODUCT_PACKAGES += \
     XperiaWiFiOverlay \
     ZigZagWiFiOverlay
 
-# Themes
-PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
-
-# UI styles
-# PRODUCT_PACKAGES += \
-#    UnmonetThemeAndroidOverlay \
-#    UnmonetThemeSettingsOverlay \
-#    UnmonetThemeSystemUIOverlay \
-#    AndroidEspressoThemeOverlay \
-#    AndroidSnowPaintDropThemeOverlay \
-#    AndroidVividThemeOverlay \
-#    PacleggersThemeAndroidOverlay \
-#    PacleggersThemeSettingsOverlay \
-#    PacleggersThemeSystemUIOverlay \
-#    ShishuAmalgamationThemeAndroidOverlay \
-#    ShishuAmalgamationThemeSettingsOverlay \
-#    ShishuAmalgamationThemeSystemUIOverlay \
-#    ShishuIllusionsThemeAndroidOverlay \
-#    ShishuIllusionsThemeSettingsOverlay \
-#    ShishuIllusionsThemeSystemUIOverlay \
-#    ShishuImmensityThemeAndroidOverlay \
-#    ShishuImmensityThemeSettingsOverlay \
-#    ShishuImmensityThemeSystemUIOverlay \
-#    ShishuNightsThemeAndroidOverlay \
-#    ShishuNightsThemeSettingsOverlay \
-#    ShishuNightsThemeSystemUIOverlay \
-#    SolarizedThemeAndroidOverlay \
-#    SolarizedThemeSettingsOverlay \
-#    SolarizedThemeSystemUIOverlay
-
 # Utility Overlays
 PRODUCT_PACKAGES += \
     HideSmartSpace \
     SmartSpaceOffset
-
-# Volume Styles
-PRODUCT_PACKAGES += \
-    VolumeDoubleLayer \
-    VolumeGradient \
-    VolumeNeumorph \
-    VolumeNeumorphOutline \
-    VolumeOutline \
-    VolumeShadedLayer \
-    VolumeAOSPRevamped
 
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
